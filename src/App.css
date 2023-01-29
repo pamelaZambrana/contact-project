@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: 62.5%;
 }
 
 .App-logo {
@@ -14,20 +15,34 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: aliceblue;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
 .App-link {
   color: #61dafb;
 }
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
 
+  background-color: aliceblue;
+}
+.contact-list{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
