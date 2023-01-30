@@ -1,0 +1,40 @@
+.contact-form{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    grid-column: 2 / 3;
+}
+.form{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+
+}
+.form label{
+    margin-top: 1rem;
+}
+.form input{
+    margin-bottom: 1rem;
+}
+
+.form-close{
+    align-self: flex-end;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.form-close:hover{
+    color: blue;
+}
+
+@media (width<600px){
+    .contact-form{
+        position: absolute;
+        width: 90%;
+        height: 90%;
+    } 
+}

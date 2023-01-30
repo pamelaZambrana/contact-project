@@ -36,12 +36,10 @@ body{
 
   background-color: aliceblue;
 }
-.contact-list{
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 1fr;
+@media (height<550px){
+  body{
+    overflow: auto;
+  }
 }
 @keyframes App-logo-spin {
   from {

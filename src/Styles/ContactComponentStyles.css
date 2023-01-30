@@ -1,0 +1,20 @@
+.conection-circle-conected{
+    font-size: 0.8rem;
+    color: green;
+}
+.conection-circle-disconected{
+    font-size: 0.8rem;
+    color: gray;
+}
+.contact-icon{
+    cursor: pointer;
+    color:gray;
+}
+
+.contact-icon:hover{
+    color: blue;
+}
+.contact-name{
+    cursor: pointer;
+    font-weight: lighter;
+}
